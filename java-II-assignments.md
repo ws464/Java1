@@ -55,7 +55,7 @@ var invoice =  new Invoice(1);
 invoice.addProduct(new Product(111,"Mustard", 2.00));
 invoice.addProduct(new Product(222,"Ketchup", 3.00));
 invoice.addProduct(new Product(333,"Franks Hot Sauce", 4.00));
-NumberFormat formatter = NumberFormat.getCurrencyInstance();
+NumberFormat formatter = NumberFormaBat.getCurrencyInstance();
 System.out.println("Total cost: " + formatter.format(invoice.getTotalCost()));
 ```
 
